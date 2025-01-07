@@ -1,0 +1,83 @@
+حوزه ,نام ستون,توضیحات به انگلیسی,توضیحات,نوع,مقادیر,برچسب‌های مقادیر
+Identifier,id,Participant's ID,شناسه‌ی شرکت‌کننده,str,,
+Demographics,Enroll_Season,Season of enrollment,فصل ثبت‌نام,str,"Spring, Summer, Fall, Winter",
+Demographics,Age,Age of participant,سن شرکت‌کننده,float,,
+Demographics,Sex,Sex of participant,جنسیت شرکت‌کننده,categorical int,"0,1","0=Male, 1=Female"
+Children's Global Assessment Scale,CGAS-Season,Season of participation,فصل انجام تست,str,"Spring, Summer, Fall, Winter",
+Children's Global Assessment Scale,CGAS-Score,Children's Global Assessment Scale Score,معیار کلی میزان عملکرد ذهنی افراد زیر ۱۸ سال,int,,
+Physical Measures,Physical-Season,Season of participation,فصل انجام تست,str,"Spring, Summer, Fall, Winter",
+Physical Measures,Physical-BMI,Body Mass Index (kg/m^2),شاخص توده بدنی,float,,
+Physical Measures,Physical-Height,Height (in),قد(اینج),float,,
+Physical Measures,Physical-Weight,Weight (lbs),وزن(پوند),float,,
+Physical Measures,Physical-Waist_Circumference,Waist circumference (in),دور کمر(اینچ),int,,
+Physical Measures,Physical-Diastolic_BP,Diastolic BP (mmHg),فشارخون ناشی از انبساط قلب(mmHg),int,,
+Physical Measures,Physical-HeartRate,Heart rate (beats/min),ضربان قلب(beats/min),int,,
+Physical Measures,Physical-Systolic_BP,Systolic BP (mmHg),فشار خون ناشی از انقباض قلب(mmHg),int,,
+FitnessGram Vitals and Treadmill,FE-Season,Season of participation,فصل انجام تست,str,"Spring, Summer, Fall, Winter",
+FitnessGram Vitals and Treadmill,FE-Max_Stage,Maximum stage reached,بالاترین سطح انجام تست,int,,
+FitnessGram Vitals and Treadmill,FE-Time_Mins,Exact time completed: Minutes,تایم دقیق انجام تست(دقیقه),int,,
+FitnessGram Vitals and Treadmill,FE-Time_Sec,Exact time completed: Seconds,تایم دقیق انجام تست(ثانیه),int,,
+FitnessGram Child,FGC-Season,Season of participation,فصل انجام تست,str,"Spring, Summer, Fall, Winter",
+FitnessGram Child,FGC-FGC_CU,Curl up total,تعداد کل درازنشست,int,,
+FitnessGram Child,FGC-FGC_CU_Zone,Curl up fitness zone,میزان تناسب بر اساس درازنشست,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FitnessGram Child,FGC-FGC_GSND,Grip Strength total (non-dominant),عدد تست قدرت با دست غیر غالب,float,,
+FitnessGram Child,FGC-FGC_GSND_Zone,Grip Strength fitness zone (non-dominant),میزان تناسب بر اساس تست قدرت با دست غیر غالب,categorical int,"1,2,3","1=Weak, 2=Normal, 3=Strong"
+FitnessGram Child,FGC-FGC_GSD,Grip Strength total (dominant),تست قدرت با دست غالب,float,,
+FitnessGram Child,FGC-FGC_GSD_Zone,Grip Strength fitness zone (dominant),میزان تناسب بر اساس تست قدرت با دست غالب,categorical int,"1,2,3","1=Weak, 2=Normal, 3=Strong"
+FitnessGram Child,FGC-FGC_PU,Push-up total,تعداد شنا,int,,
+FitnessGram Child,FGC-FGC_PU_Zone,Push-up fitness zone,میزان تناسب بر اساس شنا,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FitnessGram Child,FGC-FGC_SRL,Sit & Reach total (left side),تست انعطاف چپ,float,,
+FitnessGram Child,FGC-FGC_SRL_Zone,Sit & Reach fitness zone (left side),میزان تناسب بر اساس تست انعطاف چپ,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FitnessGram Child,FGC-FGC_SRR,Sit & Reach total (right side),تست انعطاف راست,float,,
+FitnessGram Child,FGC-FGC_SRR_Zone,Sit & Reach fitness zone (right side),میزان تناسب بر اساس تست انعطاف راست,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FitnessGram Child,FGC-FGC_TL,Trunk lift total,میزان تست ترانک لیفت,int,,
+FitnessGram Child,FGC-FGC_TL_Zone,Trunk lift fitness zone,میزان تناسب بر اساس تست ترانک لیفت,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+Bio-electric Impedance Analysis,BIA-Season,Season of participation,فصل انجام تست,str,"Spring, Summer, Fall, Winter",
+Bio-electric Impedance Analysis,BIA-BIA_Activity_Level_num,Activity Level,میزان فعالیت,categorical int,"1,2,3,4,5","1=Very Light, 2=Light, 3=Moderate, 4=Heavy, 5=Exceptional"
+Bio-electric Impedance Analysis,BIA-BIA_BMC,Bone Mineral Content,توده‌ی معدنی استخوان,float,,
+Bio-electric Impedance Analysis,BIA-BIA_BMI,Body Mass Index,شاخص توده‌ی بدنی,float,,
+Bio-electric Impedance Analysis,BIA-BIA_BMR,Basal Metabolic Rate,نرخ متابولیسم پایه,float,,
+Bio-electric Impedance Analysis,BIA-BIA_DEE,Daily Energy Expenditure,مصرف انرژی روزانه,float,,
+Bio-electric Impedance Analysis,BIA-BIA_ECW,Extracellular Water,میزان آب خارج سلولی بدن,float,,
+Bio-electric Impedance Analysis,BIA-BIA_FFM,Fat Free Mass,توده‌‌ی غیرچربی,float,,
+Bio-electric Impedance Analysis,BIA-BIA_FFMI,Fat Free Mass Index,شاخص توده غیرچربی,float,,
+Bio-electric Impedance Analysis,BIA-BIA_FMI,Fat Mass Index,شاخص توده چربی ,float,,
+Bio-electric Impedance Analysis,BIA-BIA_Fat,Body Fat Percentage,درصد چربی بدن,float,,
+Bio-electric Impedance Analysis,BIA-BIA_Frame_num,Body Frame,قالب کلی بدن,categorical int,"1,2,3","1=Small, 2=Medium, 3=Large"
+Bio-electric Impedance Analysis,BIA-BIA_ICW,Intracellular Water,میزان آب داخل سلولی بدن,float,,
+Bio-electric Impedance Analysis,BIA-BIA_LDM,Lean Dry Mass,توده‌ی بافت خشک بدن,float,,
+Bio-electric Impedance Analysis,BIA-BIA_LST,Lean Soft Tissue,توده‌ی بافت نرم بدن,float,,
+Bio-electric Impedance Analysis,BIA-BIA_SMM,Skeletal Muscle Mass,توده‌ی عضله‌ی خالص,float,,
+Bio-electric Impedance Analysis,BIA-BIA_TBW,Total Body Water,میزان آب کلی بدن,float,,
+Physical Activity Questionnaire (Adolescents),PAQ_A-Season,Season of participation,فصل انجام تست,str,"Spring, Summer, Fall, Winter",
+Physical Activity Questionnaire (Adolescents),PAQ_A-PAQ_A_Total,Activity Summary Score (Adolescents),نمره‌ی جمع‌بندی شده فعالیت بدنی برای بزرگسالان,float,,
+Physical Activity Questionnaire (Children),PAQ_C-Season,Season of participation,فصل انجام تست,str,"Spring, Summer, Fall, Winter",
+Physical Activity Questionnaire (Children),PAQ_C-PAQ_C_Total,Activity Summary Score (Children),نمره‌ی جمع‌بندی شده فعالیت بدنی برای کودکان,float,,
+Parent-Child Internet Addiction Test,PCIAT-Season,Season of participation,فصل انجام تست,str,"Spring, Summer, Fall, Winter",
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_01,How often does your child disobey time limits you set for online use?,هر چند وقت یک بار کودک شما از محدودیت زمانی که برای استفاده از اینترنت گذاشته اید تخطی می‌کند؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_02,How often does your child neglect household chores to spend more time online?,هر چند وقت یک بار کودک شما وظایف خانه را نادیده می‌گیرد تا زمان بیشتری در اینترنت صرف کند؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_03,How often does your child prefer to spend time online rather than with the rest of your family?,هر چند وقت یک بار کودک شما وقت گذرانی در اینترنت را به بودن در کنار خانواده ترجیح می‌دهد؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_04,How often does your child form new relationships with fellow online users?,هر چند وقت یک بار کودک شما دوست اینترنتی جدیدی پیدا می‌کند؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_05,How often do you complain about the amount of time your child spends online?,هر چند وقت یک بار از میزان زمانی که کودکتان آنلاین صرف می‌کند شکایت می‌کنید؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_06,How often do your child's grades suffer because of the amount of time he or she spends online?,هر چند وقت یک بار نمرات کودک شما تحت تاثیر میزان زمان آنلاین آنها قرار می‌گیرد؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_07,How often does your child check his or her e-mail before doing something else?,هر چند وقت یک بار کودک شما پیش از هر کار دیگری ایمیل خود را چک می‌کند؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_08,How often does your child seem withdrawn from others since discovering the Internet?,هر چند وقت یک بار کودک شما از دیگران غافل است چون مشغول به اینترنت است؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_09,How often does your child become defensive or secretive when asked what he or she does online?,هر چند وقت یک بار کودک شما در مقابل سوال در اینترنت مشغول به چه کاری هستی حالت تدافقی یا مخفی کارانه می‌گیرد؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_10,How often have you caught your child sneaking online against your wishes?,هر چند وقت یک بار کودک شما مخفیانه و علیرغم میل شما در اینترنت مشغول است؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_11,How often does your child spend time along in his or her room playing on the computer?,هر چند وقت یک بار کودک شما ساعات طولانی مشغول بازی کامپیوتری در اتاق است؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_12,"How often does your child receive strange phone calls from new ""online"" friends?",هر چند وقت یک بار کودک شما تماس ناشناسی از دوست آنلاین جدیدی دریافت می‌کند؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_13,"How often does your child snap, yell, or act annoyed if bothered while online?",هر چند وقت یک بار کودک شما درصورتی که در زمان کار با اینترنت مزاحمش شوید داد می‌زند یا رفتار تدافعی نشان می‌دهد؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_14,How often does your child seem more tired and fatigued than he or she did before the Internet came along?,کودک شما پیش از استفاده از اینترنت چقدر خسته و بی حال به نظر می‌رسید؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_15,How often does your child seem preoccupied with being back online when off-line?,هر چند وقت یک بار کودک شما در زمانی که دسترسی به اینترنت ندارد درگیر فکر دسترسی به اینترنت است؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_16,How often does your child throw tantrums with your interference about how long he or she spends online?,هر چند وقت یک بار کودک شما در پاسخ به دخالت شما در میزان زمان مصرفی او در اینترنت بدخلقی می‌کند؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_17,How often does your child choose to spend time online rather than doing once enjoyed hobbies and/or outside interests?,هر چند وقت یک بار کودک شما وقت گذرانی در اینترنت را به تفریحاتی که پیش‌تر از آنها لذت می‌برد ترجیح می‌دهد؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_18,How often does your child become angry or belligerent when your place time limits on how much time he or shes is allowed to spend online?,هر چند وقت یک بار کودک شما در پاسخ به اعمال محدودیت زمانی بر روی فعالیت‌های آنلاین ابراز خشم وعصبانیت می‌کند؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_19,How often does your child choose to spend more time online than going out with friends?,هر چند وقت یک بار کودک شما وقت گذرانی در اینترنت را به وقت‌گذرانی با خانواده ترجیح می‌دهد؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_20,"How often does your child feel depressed, moody, or nervous when off-line which seems to go away once back online?",هر چند وقت یک بار کودک شما احساس اضطراب و کلافگی در زمان آفلاین بودن دارد که با استفاده‌ی مجدد از اینترنت از بین می‌رود؟,categorical int,"0,1,2,3,4,5","0=Does Not Apply, 1=Rarely, 2=Occasionally, 3=Frequently, 4=Often, 5=Always"
+Parent-Child Internet Addiction Test,PCIAT-PCIAT_Total,Total Score,امتیاز کلی پرسشنامه,int,,Severity Impairment Index: 0-30=None; 31-49=Mild; 50-79=Moderate; 80-100=Severe
+Sleep Disturbance Scale,SDS-Season,Season of participation,فصل انجام تست,str,"Spring, Summer, Fall, Winter",
+Sleep Disturbance Scale,SDS-SDS_Total_Raw,Total Raw Score,نمره‌ی خام کلی,int,,
+Sleep Disturbance Scale,SDS-SDS_Total_T,Total T-Score,نمره‌ی T کلی,int,,a T-score of 50 refers to the median sleep quality with higher scores indicating a greater degree of sleep disturbance
+Internet Use,PreInt_EduHx-Season,Season of participation,فصل انجام تست,str,"Spring, Summer, Fall, Winter",
+Internet Use,PreInt_EduHx-computerinternet_hoursday,Hours of using computer/internet,ساعات استفاده از اینترنت یا کامپیوتر,categorical int,"0,1,2,3","0=Less than 1h/day, 1=Around 1h/day, 2=Around 2hs/day, 3=More than 3hs/day"
+Severity Impairment Index,ssi,,معیار استاندارد استفاده‌ی نامناسب ازاینترنت,categorical int,"0,1,2,3","0=None, 1=mild, 2=moderate, 3=severe"
