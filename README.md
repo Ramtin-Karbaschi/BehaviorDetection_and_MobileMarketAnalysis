@@ -70,7 +70,7 @@ This project focuses on analyzing mobile device data using various unsupervised 
 
 ## Contributing
 
-While this is a personal project, suggestions and improvements are welcome. Please feel free to fork the repository and submit pull requests.
+While this is a personal project, suggestions and improvements are welcome.
 
 ## License
 
